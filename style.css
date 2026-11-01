@@ -412,14 +412,17 @@ button {
 
 .hero__visual {
   width: 100%;
-  max-width: 700px;
+  max-width: 100%;
   margin-top: 48px;
-  overflow: hidden;
+  overflow-x: auto;
+  overflow-y: hidden;
+  -webkit-overflow-scrolling: touch;
 }
 
 .hero__network {
   width: 100%;
   height: auto;
+  min-height: 120px;
 }
 
 /* --------------------------------------------------------------------------
